@@ -1,0 +1,30 @@
+{
+  "name": "onlinr-market-back",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "CC0-1.0",
+  "scripts": {
+    "start": "nodemon -e ts -w ./src -x npm run watch",
+    "watch": "ts-node --inspect src/index.ts"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.0.10",
+    "@types/express": "^4.0.36",
+    "@types/body-parser": "^1.16.5",
+    "cross-env": "^5.1.4",
+    "nodemon": "^1.17.3",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/passport-jwt": "^3.0.1",
+    "@types/passport-local": "^1.0.33",
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "mongoose": "^5.0.15",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
